@@ -6,6 +6,7 @@
 ![azure bg](https://github.com/user-attachments/assets/c631b322-43e7-47b7-b252-ff0b275c445f)
 ![tih](https://github.com/user-attachments/assets/7c199a6b-8225-48ef-9919-3762ac9605d4)
 ![pantech](https://github.com/user-attachments/assets/ab9aca43-9170-4aea-9689-f8b6c63ba18f)
+![news](https://github.com/user-attachments/assets/154102dd-61be-44b4-a345-761207ec1c57)
 
 
 ![p1](https://github.com/user-attachments/assets/98ac3341-1776-4665-95d3-d07ee8ae0c49)
