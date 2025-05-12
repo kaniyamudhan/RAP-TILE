@@ -10,6 +10,5 @@
 ![p1](https://github.com/user-attachments/assets/98ac3341-1776-4665-95d3-d07ee8ae0c49)
 ![k1](https://github.com/user-attachments/assets/61e9563d-4de3-4d61-88c6-ae2f3ba60a9f)
 ![p5](https://github.com/user-attachments/assets/e163f442-9672-4b62-b083-a63465464da8)
-
-
 ![p3](https://github.com/user-attachments/assets/3de76096-b5e9-45e2-a3af-d011ef659217)
+![guvi in](https://github.com/user-attachments/assets/e6b06cff-4c69-42d8-888b-e2fecf02a5b7)
