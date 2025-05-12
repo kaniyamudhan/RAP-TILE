@@ -5,4 +5,6 @@
 ![collab](https://github.com/user-attachments/assets/030efd97-8a33-45dc-909c-88fe0483b1e5)
 ![azure bg](https://github.com/user-attachments/assets/c631b322-43e7-47b7-b252-ff0b275c445f)
 ![tih](https://github.com/user-attachments/assets/7c199a6b-8225-48ef-9919-3762ac9605d4)
-![pantech](https://github.com/user-attachments/assets/0d1da2c2-c6d4-4224-8ff8-ed63d7f24b54)
+![pantech](https://github.com/user-attachments/assets/ab9aca43-9170-4aea-9689-f8b6c63ba18f)
+
+
