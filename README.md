@@ -7,6 +7,7 @@
 ![tih](https://github.com/user-attachments/assets/7c199a6b-8225-48ef-9919-3762ac9605d4)
 ![pantech](https://github.com/user-attachments/assets/ab9aca43-9170-4aea-9689-f8b6c63ba18f)
 ![news](https://github.com/user-attachments/assets/154102dd-61be-44b4-a345-761207ec1c57)
-
-
 ![p1](https://github.com/user-attachments/assets/98ac3341-1776-4665-95d3-d07ee8ae0c49)
+![k1](https://github.com/user-attachments/assets/61e9563d-4de3-4d61-88c6-ae2f3ba60a9f)
+
+
