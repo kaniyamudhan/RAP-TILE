@@ -302,7 +302,7 @@ const Contact = () => {
             <LogoImage src="https://github.com/user-attachments/assets/85ad52c3-8c56-408a-8d9d-c7d7f89c7f95" alt="Logo" />
           </LogoWrapper>
 
-          <IconColumn href="https://www.linkedin.com/in/kaniyamuhdan-y" target="_blank" rel="noopener noreferrer">
+          <IconColumn href="https://www.linkedin.com/in/kaniyamudhan-y" target="_blank" rel="noopener noreferrer">
             <LinkedInIcon />
             <IconText>LinkedIn</IconText>
           </IconColumn>
