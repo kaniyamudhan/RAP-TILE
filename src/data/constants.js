@@ -11,7 +11,7 @@ export const Bio = {
     "A passionate and adaptable fresher Python developer focused on real-time, AI-powered solutions. Skilled in computer vision, automation, and data integration with hands-on project experience. Driven by a growth mindset, I embrace challenges and deliver impactful results.",
   github: "https://github.com/kaniyamudhan",
   resume:
-    "https://github.com/user-attachments/files/20150505/kaniyamudhan.Y.resume.pdf",
+    "https://github.com/user-attachments/files/20181987/kaniyamudhan.Y.resume.pdf",
   linkedin: "https://www.linkedin.com/in/kaniyamudhan-y/",
   twitter: "https://twitter.com/kaniofcl_15",
   insta: "https://www.instagram.com/kaniofcl_15/",
