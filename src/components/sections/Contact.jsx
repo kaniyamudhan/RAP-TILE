@@ -171,104 +171,65 @@
 
 // export default Contact;
 
-import React from "react";
+
+import React, { useEffect } from "react";
 import styled, { keyframes } from "styled-components";
-import { FaEnvelope, FaLinkedin } from "react-icons/fa"; // Import LinkedIn and mail icons
+import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 import EarthCanvas from "../canvas/Earth";
 
-// Keyframe for sparkling effect
+// Sparkle effect for icons
 const sparkle = keyframes`
-  0% {
-    opacity: 0.8;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.1);
-  }
-  100% {
-    opacity: 0.8;
-    transform: scale(1);
-  }
+  0% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
+  100% { opacity: 0.8; transform: scale(1); }
 `;
 
 const Container = styled.div`
   display: flex;
-  justify-content: center;
-  gap: 12px;
-  z-index: 1;
+  flex-direction: column;
   align-items: center;
-  @media (max-width: 960px) {
-    padding: 0px;
-  }
+  text-align: center;
+  padding: 40px 0;
+  z-index: 1;
 `;
 
 const Wrapper = styled.div`
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
   max-width: 1350px;
-  padding: 0px 0px 80px 0px;
-  gap: 12px;
-  @media (max-width: 960px) {
-    flex-direction: column;
-  }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 80px;
 `;
 
 const Title = styled.div`
   font-size: 52px;
-  text-align: center;
   font-weight: 600;
-  margin-top: 20px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
-    margin-top: 12px;
     font-size: 32px;
   }
 `;
 
 const Desc = styled.div`
   font-size: 18px;
-  text-align: center;
   max-width: 600px;
   color: ${({ theme }) => theme.text_secondary};
   @media (max-width: 768px) {
-    margin-top: 12px;
     font-size: 16px;
   }
 `;
 
-const IconWrapper = styled.div`
+const Row = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 40px;
+  width: 100%;
+  max-width: 900px;
   margin-top: 40px;
-  font-size: 22px;
-`;
-
-const MailIcon = styled(FaEnvelope)`
-  font-size: 36px;
-  color: white;
-  animation: ${sparkle} 1.5s infinite;
-  cursor: pointer;
-`;
-
-const LinkedInIcon = styled(FaLinkedin)`
-  font-size: 36px;
-  color: white;
-  animation: ${sparkle} 1.5s infinite;
-  cursor: pointer;
-`;
-
-const IconText = styled.div`
-  font-size: 24px;
-  color: white;
-  font-weight: bold;
-  // text-transform: uppercase;
+  flex-wrap: wrap;
+  gap: 32px;
 `;
 
 const IconColumn = styled.a`
@@ -277,26 +238,75 @@ const IconColumn = styled.a`
   align-items: center;
   text-decoration: none;
   gap: 8px;
+  cursor: pointer;
+`;
+
+const MailIcon = styled(FaEnvelope)`
+  font-size: 36px;
+  color: white;
+  animation: ${sparkle} 1.5s infinite;
+`;
+
+const LinkedInIcon = styled(FaLinkedin)`
+  font-size: 36px;
+  color: white;
+  animation: ${sparkle} 1.5s infinite;
+`;
+
+const IconText = styled.div`
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+`;
+
+const LogoWrapper = styled.div`
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+`;
+
+const LogoImage = styled.img`
+  max-width: 150px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+
+  @media (max-width: 768px) {
+    max-width: 120px;
+  }
 `;
 
 const Contact = () => {
+  useEffect(() => {
+    const disableRightClick = (e) => e.preventDefault();
+    document.addEventListener('contextmenu', disableRightClick);
+    return () => document.removeEventListener('contextmenu', disableRightClick);
+  }, []);
+
   return (
     <Container>
       <Wrapper>
         <EarthCanvas />
         <Title>Contact</Title>
         <Desc>I am actively seeking roles where I can contribute meaningfully.</Desc>
-
-        <IconWrapper>
+        <Row>
           <IconColumn href="mailto:kaniyamudhanyogaraja@gmail.com">
             <MailIcon />
             <IconText>Email</IconText>
           </IconColumn>
+
+          <LogoWrapper>
+            <LogoImage src="https://github.com/user-attachments/assets/85ad52c3-8c56-408a-8d9d-c7d7f89c7f95" alt="Logo" />
+          </LogoWrapper>
+
           <IconColumn href="https://www.linkedin.com/in/kaniyamuhdan-y" target="_blank" rel="noopener noreferrer">
             <LinkedInIcon />
             <IconText>LinkedIn</IconText>
           </IconColumn>
-        </IconWrapper>
+        </Row>
       </Wrapper>
     </Container>
   );
