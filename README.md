@@ -19,3 +19,4 @@
 ![klogo-removebg-preview](https://github.com/user-attachments/assets/85ad52c3-8c56-408a-8d9d-c7d7f89c7f95)
 =======
 >>>>>>> 2e66567 (Initial commit)
+[kaniyamudhan Y resume.pdf](https://github.com/user-attachments/files/20181987/kaniyamudhan.Y.resume.pdf)
