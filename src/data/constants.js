@@ -165,11 +165,7 @@ export const skills = [
       //   image:
       //     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
       // },
-      {
-        name: "Data bricks",
-        image:
-          "https://github.com/user-attachments/assets/f605d4a2-c145-4fbb-a2cf-19976d7b2e3a",
-      },
+      
       {
         name: "Kubernetes",
         image:
