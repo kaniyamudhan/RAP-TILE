@@ -444,7 +444,7 @@ export const projects = [
     member: [
       {
         name: "Kaniyamudhan Y",
-        img: "https://github.com/user-attachments/assets/61e9563d-4de3-4d61-88c6-ae2f3ba60a9f",
+        img: "https://github.com/user-attachments/assets/06593eb0-f88a-4922-8540-c04c134e5435",
         linkedin: "https://www.linkedin.com/in/kaniyamudhan-y/",
         github: "https://github.com/kaniyamudhan/",
       },]
@@ -496,7 +496,7 @@ export const projects = [
     member: [
       {
         name: "Kaniyamudhan Y",
-        img: "https://github.com/user-attachments/assets/61e9563d-4de3-4d61-88c6-ae2f3ba60a9f",
+        img: "https://github.com/user-attachments/assets/06593eb0-f88a-4922-8540-c04c134e5435",
         linkedin: "https://www.linkedin.com/in/kaniyamudhan-y/",
         github: "https://github.com/kaniyamudhan/",
       },
@@ -532,7 +532,7 @@ export const projects = [
     member: [
       {
         name: "Kaniyamudhan Y",
-        img: "https://github.com/user-attachments/assets/61e9563d-4de3-4d61-88c6-ae2f3ba60a9f",
+        img: "https://github.com/user-attachments/assets/06593eb0-f88a-4922-8540-c04c134e5435",
         linkedin: "https://www.linkedin.com/in/kaniyamudhan-y/",
         github: "https://github.com/kaniyamudhan/",
       },]
@@ -566,7 +566,7 @@ export const projects = [
     member: [
       {
         name: "Kaniyamudhan Y",
-        img: "https://github.com/user-attachments/assets/61e9563d-4de3-4d61-88c6-ae2f3ba60a9f",
+        img: "https://github.com/user-attachments/assets/06593eb0-f88a-4922-8540-c04c134e5435",
         linkedin: "https://www.linkedin.com/in/kaniyamudhan-y/",
         github: "https://github.com/kaniyamudhan/",
       },]
